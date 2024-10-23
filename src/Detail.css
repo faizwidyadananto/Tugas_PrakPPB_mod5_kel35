@@ -1,0 +1,36 @@
+.detail-container {
+    display: flex;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+
+.detail-img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.detail-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.detail-genre {
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.detail-description {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
